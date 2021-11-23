@@ -79,7 +79,7 @@ tempElement.addEventListener("click", function(){
 // display weather info to ui
 function displayWeather(){
 
-    iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
+    iconElement.innerHTML = `<img src="img/${weather.iconId}.png"/>`;
     tempElement.innerHTML = `${weather.temperature.value}° <span>C</span>`;
     descElement.innerHTML = weather.description;
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
